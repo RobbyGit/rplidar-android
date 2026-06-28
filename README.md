@@ -19,7 +19,7 @@ I hope this finds some usage somewhere. These RPLIDAR units are cheap and easy t
   </tr>
 </table>
 
-Check the video out int he images directory
+Check the video out in the images directory
 
 ## 🚀 Features
 
