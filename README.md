@@ -18,7 +18,8 @@ I hope this finds some usage somewhere. These RPLIDAR units are cheap and easy t
 </table>
 
 <p align="center">
-  <video src="images/vid.mp4" width="400" controls muted autoplay loop></video>
+  <strong>See it in action:</strong><br>
+  <video src="images/vid.mp4" width="500" controls muted autoplay loop></video>
 </p>
 
 ## 🚀 Features
