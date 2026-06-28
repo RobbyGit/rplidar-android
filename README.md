@@ -19,10 +19,7 @@ I hope this finds some usage somewhere. These RPLIDAR units are cheap and easy t
   </tr>
 </table>
 
-<p align="center">
-  <strong>See it in action:</strong><br>
-  <video src="https://github.com/RobbyGit/rplidar-android/blob/main/images/vid.mp4" width="500" controls muted autoplay loop></video>
-</p>
+Check the video out int he images directory
 
 ## 🚀 Features
 
