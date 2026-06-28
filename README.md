@@ -6,7 +6,12 @@
 
 The goal wasn't just to write code, but to understand the mechanics of spatial hardware telemetry, tinker with high-frequency serial streaming, and create an entirely portable, battery-powered radar map tracker you can carry in your pocket.
 
-![Radar Map Screenshot](images/image1.jpg)
+<table border="0">
+  <tr>
+    <td><img src="images/image1.jpg" width="350" alt="First View"/></td>
+    <td><img src="images/image2.png" width="350" alt="Second View"/></td>
+  </tr>
+</table>
 
 ## 🚀 Features
 * **Native Streaming Core:** Low-latency C++ implementation via Android NDK/JNI to handle massive serial data payloads without locking or choking the JVM main thread.
