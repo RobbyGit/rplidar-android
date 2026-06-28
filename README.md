@@ -7,6 +7,10 @@
 The goal wasn't just to write code, but to understand the mechanics of spatial hardware telemetry, tinker with high-frequency serial streaming, and create an entirely portable, battery-powered radar map tracker you can carry in your pocket.
 Later this year I hope to get this doing SLAM but I think I will need to upgrade to a better lidar like Mid‑360S made by Livox. This is a very affordable lidar for me.
 
+Hope this finds some usage somewhere. This Rplidar are chap and easy to find so for a tinker like me, it's perfect.
+Different versions of Android have different challenges... keep at it.
+
+
 <table border="0">
   <tr>
     <td><img src="images/image1.jpg" width="350" alt="First View"/></td>
