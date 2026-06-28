@@ -17,6 +17,10 @@ I hope this finds some usage somewhere. These RPLIDAR units are cheap and easy t
   </tr>
 </table>
 
+<p align="center">
+  <video src="images/vid.mp4" width="400" controls muted autoplay loop></video>
+</p>
+
 ## 🚀 Features
 
 * **Native Streaming Core:** Low-latency C++ implementation via Android NDK/JNI to handle massive serial data payloads without locking or choking the JVM main thread.
