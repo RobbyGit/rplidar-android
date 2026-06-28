@@ -5,6 +5,7 @@
 > "I have been trying to get my LiDAR to display on my Android device for a while and finally got it right. This project won't change the world, but it has been a lot of fun trying to get this to work, and being able to walk around and see exactly how a LiDAR works in real-time is incredibly rewarding."
 
 The goal wasn't just to write code, but to understand the mechanics of spatial hardware telemetry, tinker with high-frequency serial streaming, and create an entirely portable, battery-powered radar map tracker you can carry in your pocket.
+Later this year I hope to get this doing SLAM but I think I will need to upgrade to a better lidar like Mid‑360S made by Livox. This is a very affordable lidar for me.
 
 <table border="0">
   <tr>
@@ -25,7 +26,8 @@ The goal wasn't just to write code, but to understand the mechanics of spatial h
 ### Prerequisites
 * **Android Device:** Must explicitly support **USB Host Mode / USB-OTG (On-The-Go)**.
 * **USB-OTG Cable/Adapter:** Required to physically bridge your phone's USB-C or Micro-USB port to the LiDAR's USB adapter board.
-* **Android Studio:** Ladybug or newer recommended.
+* **Android Studio:** Quail 1 | 2026.1.1 Patch 2 or newer recommended.
+* **Android SDK:** 36
 * **Android NDK & CMake:** Configured via the SDK Manager inside Android Studio for compiling the native C++ parsing library.
 * **Physical Hardware:** An RPLIDAR A1 unit (A1M8 or similar) with its companion USB adapter board.
 
