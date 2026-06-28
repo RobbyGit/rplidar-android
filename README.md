@@ -4,8 +4,7 @@
 
 ## 🎯 Motivation & Backstory
 
-> "I have been trying to get my LiDAR to display on my Android device for a while and finally got it right. This project won't change the world, but it has been a lot of fun trying to get this to work, and being able to walk around and see exactly how a LiDAR works in real-time is incredibly rewarding."
-
+I have been trying to get my LiDAR to display on my Android device for a while and finally got it right. This project won't change the world, but it has been a lot of fun trying to get this to work, and being able to walk around and see exactly how a LiDAR works in real-time is incredibly rewarding.
 The goal wasn't just to write code, but to understand the mechanics of spatial hardware telemetry, tinker with high-frequency serial streaming, and create an entirely portable, battery-powered radar map tracker you can carry in your pocket.
 
 Later this year, I hope to get this project doing SLAM, but I think I will need to upgrade to a better LiDAR like the Mid-360 made by Livox. It is a very affordable LiDAR option for my needs.
