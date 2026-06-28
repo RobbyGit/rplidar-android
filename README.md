@@ -4,9 +4,11 @@
 
 > "I have been trying to get my LiDAR to display on my Android device for a while and finally got it right. This project won't change the world, but it has been a lot of fun trying to get this to work, and being able to walk around and see exactly how a LiDAR works in real-time is incredibly rewarding."
 
-This repository represents the culmination of a persistent engineering challenge: bridging low-level robotics hardware directly onto a mobile platform. The goal wasn't just to write code, but to understand the mechanics of spatial hardware telemetry, tinker with high-frequency serial streaming, and create an entirely portable, battery-powered radar map tracker you can carry in your pocket.
-## 🚀 Features
+The goal wasn't just to write code, but to understand the mechanics of spatial hardware telemetry, tinker with high-frequency serial streaming, and create an entirely portable, battery-powered radar map tracker you can carry in your pocket.
 
+![Radar Map Screenshot](images/image1.jpg)
+
+## 🚀 Features
 * **Native Streaming Core:** Low-latency C++ implementation via Android NDK/JNI to handle massive serial data payloads without locking or choking the JVM main thread.
 * **Efficient Frame Batching:** C++ caches individual raw points during a physical $360^\circ$ revolution and shifts complete frame vectors to Kotlin only when the hardware `StartBit` flag triggers.
 * **Custom Radar Map Canvas:** Custom Android `View` that converts raw Polar telemetry Data (Angle & Distance) into Cartesian $(X,Y)$ screen coordinates in real-time.
